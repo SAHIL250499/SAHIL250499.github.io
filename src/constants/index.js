@@ -23,6 +23,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  python,
+  portfolio,
+  youtube,
+  swiggy,
+  tcs,
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +47,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Web3 Development",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Open Source Contribution",
+    icon: creator,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Automation",
+    icon: backend,
   },
 ];
 
@@ -73,12 +78,12 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Python",
+    icon: python,
   },
   {
     name: "Redux Toolkit",
@@ -97,10 +102,6 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -108,63 +109,32 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "Tata Consultancy Services",
+    icon: tcs,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "March 2021 - February 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed responsive website using Azure APIM Developer Portal.",
+      "Used figma to design and develop web pages.",
+      "Taking feedbacks in the Sprints and applying suggested changes.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Power Bi Admin / Data Analyst",
+    company_name: "Tata Consultancy Services",
+    icon: tcs,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "February 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Maintained Power Bi workspaces using Capacity Metrics App.",
+      "Communicated with clients to solve there various issues related to Power Bi like schedule refresh not working or not able to publish Power Bi report to online,etc.",
+      "Helped clients in optimizing the report like removing many to many relationships in the dataset by using bridge table and many more other tasks.",
+      "Automated the task of monitoring the workspace size in Capacity Metrics App and sending mail to respective workspace owners weekly using Microsoft Power Automate.",
     ],
   },
 ];
@@ -198,16 +168,40 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "3D Portfolio",
+    description: "Created a 3D Website using Three Js",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Vite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ThreeJs Fiber",
+        color: "green-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/SAHIL250499/SAHIL250499.github.io",
+  },
+  {
+    name: "Swiggy Clone",
+    description:
+      "Web application that enables users to search restaurants and their menu's and add Food to the cart",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux ToolKit",
         color: "green-text-gradient",
       },
       {
@@ -215,49 +209,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: swiggy,
+    source_code_link: "https://github.com/SAHIL250499/namaste-react",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
+    name: "Youtube Clone",
+    description: "Coming Soon...",
+    tags: [],
+    image: youtube,
     source_code_link: "https://github.com/",
   },
 ];
