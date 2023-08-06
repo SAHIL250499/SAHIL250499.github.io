@@ -28,6 +28,7 @@ import {
   youtube,
   swiggy,
   tcs,
+  java,
 } from "../assets";
 
 export const navLinks = [
@@ -82,8 +83,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Python",
-    icon: python,
+    name: "Java",
+    icon: java,
   },
   {
     name: "Redux Toolkit",
