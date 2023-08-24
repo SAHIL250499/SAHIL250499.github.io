@@ -35,6 +35,7 @@ import tripguide from "./tripguide.png";
 import portfolio from "./portfolio.png";
 import youtube from "./youtube.png";
 import swiggy from "./swiggy.png";
+import resumebuild from "./resumebuilder.png";
 
 export {
   logo,
@@ -68,6 +69,7 @@ export {
   python,
   portfolio,
   youtube,
+  resumebuild,
   swiggy,
   tcs,
   java,

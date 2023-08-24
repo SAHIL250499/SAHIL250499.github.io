@@ -29,6 +29,7 @@ import {
   swiggy,
   tcs,
   java,
+  resumebuild,
 } from "../assets";
 
 export const navLinks = [
@@ -214,11 +215,26 @@ const projects = [
     source_code_link: "https://github.com/SAHIL250499/namaste-react",
   },
   {
-    name: "Youtube Clone",
-    description: "Coming Soon...",
-    tags: [],
-    image: youtube,
-    source_code_link: "https://github.com/",
+    name: "Resume Builder",
+    description:
+      "I have used vanilla Javascript, Content Editable to make user edit content and also used Tailwind CSS.Also, to generate PDF from javascript I have used html2pdf",
+    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML5",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: resumebuild,
+    source_code_link:
+      "https://github.com/SAHIL250499/ResumeGenerator-Vanilla-Javascript-Without-Login-",
   },
 ];
 
