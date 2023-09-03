@@ -16,8 +16,6 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
   shopify,
   carrent,
   jobit,
@@ -30,6 +28,7 @@ import {
   tcs,
   java,
   resumebuild,
+  netflixgpt,
 } from "../assets";
 
 export const navLinks = [
@@ -192,11 +191,12 @@ const projects = [
     ],
     image: portfolio,
     source_code_link: "https://github.com/SAHIL250499/SAHIL250499.github.io",
+    live_code_link: "https://sahil250499.github.io/",
   },
   {
-    name: "Swiggy Clone",
+    name: "Netflix GPT",
     description:
-      "Web application that enables users to search restaurants and their menu's and add Food to the cart",
+      "Web application that gets Movie data from TMDB API and also integrated GPT Api so user can search for the movie by prompt and get the movies from TMDB.",
     tags: [
       {
         name: "react",
@@ -210,9 +210,14 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "GPT API",
+        color: "blue-text-gradient",
+      },
     ],
-    image: swiggy,
-    source_code_link: "https://github.com/SAHIL250499/namaste-react",
+    image: netflixgpt,
+    source_code_link: "https://github.com/SAHIL250499/netflix-gpt",
+    live_code_link: "https://netflix-gpt-react.netlify.app/",
   },
   {
     name: "Resume Builder",
@@ -235,6 +240,7 @@ const projects = [
     image: resumebuild,
     source_code_link:
       "https://github.com/SAHIL250499/ResumeGenerator-Vanilla-Javascript-Without-Login-",
+    live_code_link: "https://resume-builder-javascript.netlify.app/",
   },
 ];
 

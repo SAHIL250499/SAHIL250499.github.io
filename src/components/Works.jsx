@@ -2,6 +2,7 @@ import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { github } from "../assets";
+import { deployedsite } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -13,6 +14,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_code_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -38,6 +40,16 @@ const ProjectCard = ({
               <img
                 src={github}
                 alt="github"
+                className="w-1/2 h-1/2 object-contain"
+              />
+            </div>
+            <div
+              onClick={() => window.open(live_code_link, "_blank")}
+              className="bg-violet-950 w-10 h-10  rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={deployedsite}
+                alt="deployedSite"
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>

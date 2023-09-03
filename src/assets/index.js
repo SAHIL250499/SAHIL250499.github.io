@@ -36,6 +36,8 @@ import portfolio from "./portfolio.png";
 import youtube from "./youtube.png";
 import swiggy from "./swiggy.png";
 import resumebuild from "./resumebuilder.png";
+import netflixgpt from "./NetflixGPT.png";
+import deployedsite from "./deployedsite.png";
 
 export {
   logo,
@@ -73,4 +75,6 @@ export {
   swiggy,
   tcs,
   java,
+  netflixgpt,
+  deployedsite,
 };
