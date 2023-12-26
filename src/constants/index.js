@@ -118,7 +118,7 @@ const experiences = [
     company_name: "Tata Consultancy Services",
     icon: tcs,
     iconBg: "#383E56",
-    date: "March 2021 - February 2022",
+    date:"February 2023 - Present",
     points: [
       "Developed responsive website using Azure APIM Developer Portal.",
       "Used figma to design and develop web pages.",
@@ -130,7 +130,7 @@ const experiences = [
     company_name: "Tata Consultancy Services",
     icon: tcs,
     iconBg: "#E6DEDD",
-    date: "February 2022 - Present",
+    date: "March 2021 - February 2023",
     points: [
       "Maintained Power Bi workspaces using Capacity Metrics App.",
       "Communicated with clients to solve there various issues related to Power Bi like schedule refresh not working or not able to publish Power Bi report to online,etc.",
