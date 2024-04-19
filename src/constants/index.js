@@ -83,10 +83,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Java",
-    icon: java,
-  },
-  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -105,11 +101,7 @@ const technologies = [
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  }
 ];
 
 const experiences = [
@@ -120,22 +112,24 @@ const experiences = [
     iconBg: "#383E56",
     date:"February 2023 - Present",
     points: [
-      "Developed responsive website using Azure APIM Developer Portal.",
-      "Used figma to design and develop web pages.",
-      "Taking feedbacks in the Sprints and applying suggested changes.",
+      "Implemented various RESTful APIs in NestJS to facilitate efficient communication with a MongoDB database.",
+      "Developed and implemented JavaScript and jQuery functions for frontend interactions, including AJAX calls to fetch API results and populate table views. Ensured seamless user experience through error handling, form validation, and resolution of multiple bugs, enhancing overall application stability and usability.",
+      "Optimized frontend rendering by implementing lazy loading of table data using AJAX pagination, reducing initial page load times by 40% and improving overall application performance and responsiveness.",
+      "Javascript,Nest.js,Jquery,MongoDB,Azure kubernetes,Jira,Gitlab"
     ],
   },
   {
-    title: "Power Bi Admin / Data Analyst",
+    title: "Power Bi Developer / Data Analyst",
     company_name: "Tata Consultancy Services",
     icon: tcs,
     iconBg: "#E6DEDD",
     date: "March 2021 - February 2023",
     points: [
-      "Maintained Power Bi workspaces using Capacity Metrics App.",
-      "Communicated with clients to solve there various issues related to Power Bi like schedule refresh not working or not able to publish Power Bi report to online,etc.",
-      "Helped clients in optimizing the report like removing many to many relationships in the dataset by using bridge table and many more other tasks.",
-      "Automated the task of monitoring the workspace size in Capacity Metrics App and sending mail to respective workspace owners weekly using Microsoft Power Automate.",
+      "Doing assessment of the various metrics in power bi report before publishing it in premium capacity.",
+      "Maintaining Power Bi workspaces using Capacity Metrics App.",
+      "Communicating with clients to solve there various issues related to Power Bi like refresh not working,many to many relation in report and many other tasks.",
+      "Automated the task of monitoring new created report in workspace and sending mail to respective workspace owner using Microsoft Power Automate.",
+      "PowerBi,Azure,Power Automate."
     ],
   },
 ];
