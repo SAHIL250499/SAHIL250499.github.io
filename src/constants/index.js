@@ -188,7 +188,7 @@ const projects = [
     live_code_link: "https://sahil250499.github.io/",
   },
   {
-    name: "Netflix GPT",
+    name: "BingeBot",
     description:
       "Web application that gets Movie data from TMDB API and also integrated GPT Api so user can search for the movie by prompt and get the movies from TMDB.",
     tags: [
@@ -210,8 +210,8 @@ const projects = [
       },
     ],
     image: netflixgpt,
-    source_code_link: "https://github.com/SAHIL250499/netflix-gpt",
-    live_code_link: "https://netflix-gpt-react.netlify.app/",
+    source_code_link: "https://github.com/SAHIL250499/BingeBot",
+    live_code_link: "https://bingebot.onrender.com/",
   },
   {
     name: "Resume Builder",
@@ -235,6 +235,33 @@ const projects = [
     source_code_link:
       "https://github.com/SAHIL250499/ResumeGenerator-Vanilla-Javascript-Without-Login-",
     live_code_link: "https://resume-builder-javascript.netlify.app/",
+  },
+  {
+    name: "CraftMyResume",
+    description:
+      "Built this Web App in which user can Login and edit a template resume which is saved automatically and generate PDF when finished editing.Implemented Persistent login functionality using access token and refresh token architecture and used contentEditable for frontend.",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NestJS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: resumebuild,
+    source_code_link:
+      "https://github.com/SAHIL250499/PersonalizedResumeTool",
+    live_code_link: "https://craftmyresume.onrender.com/",
   },
 ];
 
